@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 
 export default function ReduxForm() {
     return <>
+        {/* Configure store for form component */}
         <Provider store={store}>
             <ReduxFormComponents />
         </Provider>
